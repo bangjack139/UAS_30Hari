@@ -55,7 +55,7 @@ class Calculator(QMainWindow):
         else:
             self.display.setText(self.display.text() + button_text)
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     app = QApplication(sys.argv)
     calculator = Calculator()
     calculator.show()
